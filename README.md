@@ -76,14 +76,103 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 
 </details>
 
+<details>
+<summary>🎯Q. Solving the system equation?</summary>
+
+- ![alt text](image-18.png)
+- ![alt text](image-20.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is rank of a metrix?</summary>
+
+- ![alt text](image-21.png)
+- ![alt text](image-22.png)
+- ![alt text](image-23.png)
+- ![alt text](image-24.png)
+</details>
+
+<details>
+<summary>🎯Q. what is row echelon form? how it helps find the rank ?</summary>
+
+- echelon form is a form of a matrix in which all the non-zero rows are above the zero rows and the leading coefficient of each non-zero row is to the right of the leading coefficient of the previous row. 
+- Example : A matrix in row echelon form might look like this:
+  ```
+  [1 2 3]
+  [0 1 4]
+  [0 0 1]
+  ```
+- ![alt text](image-25.png)
+- ![alt text](image-26.png)
+- ![alt text](image-27.png)
+- ![alt text](image-28.png)
+- ![alt text](image-29.png)
+- ![alt text](image-30.png)
+</details>
+
+<details>
+<summary>🎯Q. what is Gaussian Elimination Algorithm</summary>
+
+- ![alt text](image-31.png)
+</details>
 
 
+<details>
+<summary>🎯Q. what is sin theta, cost theta and tan theta?</summary>
+
+- ![alt text](image-33.png)
+- ![alt text](image-34.png)
+- sin theta, cost theta and tan theta are `trigonometric functions` that relate the angles of a triangle to the lengths of its sides.
+- in linear algebra, these functions are used to `describe the relationship between vectors and angles`.
+- `sin theta` is the ratio of the length of the side opposite the angle to the length of the hypotenuse.
+- `cos theta` is the ratio of the length of the adjacent side to the length of
+the hypotenuse.
+- `tan theta` is the ratio of the length of the side opposite the angle to the length of the adjacent side.
+- These functions are used in various applications such as `rotations, projections, and transformations` in linear algebra.
+- They are also used in `machine learning and data science` for tasks such as `dimensionality reduction and feature extraction`.
+</details>
+
+
+
+<br>
+<details>
+<summary>🎯Q. what is the neural network ? VVIP</summary>
+
+- ![alt text](image-32.png)
+</details>
+
+
+<details>
+<summary>🎯Q. what is L1 and L2 norms</summary>
+
+- L1 and L2 norms used to measure the size or length of a vector in a vector space.
+
+- ![alt text](image-35.png)
+- Machine Learning connection
+  - `L1 norm` → gives sparse models (used in Lasso Regression)
+  - `L2 norm` → gives smooth models (used in Ridge Regression)
+- going by car is L1 and goinf by plan is L2. check below diagrm for simple analogy.
+- ![alt text](image-36.png)
+</details>
+
+<details>
+<summary>🎯Q. The dot product geometry explained and equations of a dot product explained in simple</summary>
+
+- ![alt text](image-37.png)
+- ![alt text](image-38.png)
+- ![alt text](image-39.png)
+
+- equations as a dot product
+- ![alt text](image-40.png)
+- ![alt text](image-41.png)
+</details>
 
 
 
 <br>
 <br>
-***********
+*********** IGNORE BELOW ***********
 <details>
 <summary>Emojis used</summary>
 ⭐ - For important points
@@ -95,5 +184,3 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 🚫 - For indicating something that cannot be used or a concerning point
 </summary>
 </details>
-# Mathematics_for_ai-
-Mathematics concepts explained for AI ML DL 
