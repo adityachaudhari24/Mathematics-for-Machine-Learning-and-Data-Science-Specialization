@@ -18,9 +18,9 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 - A `singular system` is a system of linear equations that does not have a unique solution. This happens when the equations are `linearly dependent`, meaning that one equation can be derived from another. In such cases, t`he system may have either no solutions or infinitely many solutions`.
 - A `non-singular system` is a system of linear equations that has a unique solution. This occurs when the equations are `linearly independent`, meaning that no equation can be derived from another. In such cases, the `system has exactly one solution`.
 - A `singular matrix`
-- ![alt text](image.png)
-- ![alt text](image-1.png)
-- ![alt text](image-2.png)
+- ![alt text](images/image.png)
+- ![alt text](images/image-1.png)
+- ![alt text](images/image-2.png)
 
 </details>
 
@@ -28,7 +28,7 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 <details>
 <summary>🎯Q. what is linear equation and non-linear equation ?</summary>
 
-- ![alt text](image-3.png)
+- ![alt text](images/image-3.png)
 - `linear equation` is an equation in which the highest power of the variable is 1. Example : 2x + 3y = 6
 - `non-linear equation` is an equation in which the highest power of the variable is greater than 1. Example : x^2 + y^2 = 1
 - `linear equations` can be represented in the form of `matrices and vectors`. Example : 2x + 3y = 6 can be represented as [2 3] [x y]^T = 6 (T here is transpose)
@@ -43,25 +43,25 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 <details>
 <summary>🎯Q. System of equations as a line ? very intresting</summary>
 
-- ![alt text](image-4.png)
-- ![alt text](image-5.png)
+- ![alt text](images/image-4.png)
+- ![alt text](images/image-5.png)
 </details>
 
 <details>
 <summary>🎯Q. System of equations a metrics ? very intresting</summary>
 
-- ![alt text](image-6.png)
+- ![alt text](images/image-6.png)
 </details>
 
 <details>
 <summary>🎯Q. what does linear dependence system means?</summary>
 
-- ![alt text](image-7.png)
-- ![alt text](image-8.png)
-- ![alt text](image-9.png)  
-- ![alt text](image-10.png) 
-- ![alt text](image-11.png)
-- ![alt text](image-12.png)
+- ![alt text](images/image-7.png)
+- ![alt text](images/image-8.png)
+- ![alt text](images/image-9.png)  
+- ![alt text](images/image-10.png) 
+- ![alt text](images/image-11.png)
+- ![alt text](images/image-12.png)
 
 </details>
 
@@ -70,27 +70,27 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 
 - determinant is a used to `determine if a matrix is singular or non-singular`.
 - If determinant is `0` then matrix is `singular` and if determinant is `non-zero` then matrix is `non-singular`.
-- ![alt text](image-14.png)
-- ![alt text](image-15.png)
-- ![alt text](image-17.png)
+- ![alt text](images/image-14.png)
+- ![alt text](images/image-15.png)
+- ![alt text](images/image-17.png)
 
 </details>
 
 <details>
 <summary>🎯Q. Solving the system equation?</summary>
 
-- ![alt text](image-18.png)
-- ![alt text](image-20.png)
+- ![alt text](images/image-18.png)
+- ![alt text](images/image-20.png)
 
 </details>
 
 <details>
 <summary>🎯Q. what is rank of a metrix?</summary>
 
-- ![alt text](image-21.png)
-- ![alt text](image-22.png)
-- ![alt text](image-23.png)
-- ![alt text](image-24.png)
+- ![alt text](images/image-21.png)
+- ![alt text](images/image-22.png)
+- ![alt text](images/image-23.png)
+- ![alt text](images/image-24.png)
 </details>
 
 <details>
@@ -103,26 +103,26 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
   [0 1 4]
   [0 0 1]
   ```
-- ![alt text](image-25.png)
-- ![alt text](image-26.png)
-- ![alt text](image-27.png)
-- ![alt text](image-28.png)
-- ![alt text](image-29.png)
-- ![alt text](image-30.png)
+- ![alt text](images/image-25.png)
+- ![alt text](images/image-26.png)
+- ![alt text](images/image-27.png)
+- ![alt text](images/image-28.png)
+- ![alt text](images/image-29.png)
+- ![alt text](images/image-30.png)
 </details>
 
 <details>
 <summary>🎯Q. what is Gaussian Elimination Algorithm</summary>
 
-- ![alt text](image-31.png)
+- ![alt text](images/image-31.png)
 </details>
 
 
 <details>
 <summary>🎯Q. what is sin theta, cost theta and tan theta?</summary>
 
-- ![alt text](image-33.png)
-- ![alt text](image-34.png)
+- ![alt text](images/image-33.png)
+- ![alt text](images/image-34.png)
 - sin theta, cost theta and tan theta are `trigonometric functions` that relate the angles of a triangle to the lengths of its sides.
 - in linear algebra, these functions are used to `describe the relationship between vectors and angles`.
 - `sin theta` is the ratio of the length of the side opposite the angle to the length of the hypotenuse.
@@ -139,7 +139,7 @@ the hypotenuse.
 <details>
 <summary>🎯Q. what is the neural network ? VVIP</summary>
 
-- ![alt text](image-32.png)
+- ![alt text](images/image-32.png)
 </details>
 
 
@@ -148,24 +148,24 @@ the hypotenuse.
 
 - L1 and L2 norms used to measure the size or length of a vector in a vector space.
 
-- ![alt text](image-35.png)
+- ![alt text](images/image-35.png)
 - Machine Learning connection
   - `L1 norm` → gives sparse models (used in Lasso Regression)
   - `L2 norm` → gives smooth models (used in Ridge Regression)
 - going by car is L1 and goinf by plan is L2. check below diagrm for simple analogy.
-- ![alt text](image-36.png)
+- ![alt text](images/image-36.png)
 </details>
 
 <details>
 <summary>🎯Q. The dot product geometry explained and equations of a dot product explained in simple</summary>
 
-- ![alt text](image-37.png)
-- ![alt text](image-38.png)
-- ![alt text](image-39.png)
+- ![alt text](images/image-37.png)
+- ![alt text](images/image-38.png)
+- ![alt text](images/image-39.png)
 
 - equations as a dot product
-- ![alt text](image-40.png)
-- ![alt text](image-41.png)
+- ![alt text](images/image-40.png)
+- ![alt text](images/image-41.png)
 </details>
 
 
