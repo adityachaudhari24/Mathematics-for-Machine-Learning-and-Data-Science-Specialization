@@ -1,6 +1,12 @@
+# Linear Algebra concepts for Machine Learning and Data Science
+- The notes are from the deeplearning.ai course and some youtube videos.(links below)
+- link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science
 
-# Course 1: Linear Algebra for Machine Learning and Data Science - notes - course from deep learning.ai
-link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science
+- and excellent youtube video series : https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=1
+
+Q. why its important to learn the core concepts of linear algebra for machine learning and data science ?
+- It gives the data analyst or data scientists a nice way to conceptualize and visualize the data which can seriously help recognize the patterns in the data more visually.
+- For CS concepts like computer graphics, computer vision, robotics and machine learning linear algebra provides the "language to describe the space and manipulation of the space using numbers which is very important for these fields".
 
 <details>
 <summary>🎯Q. what is linear regression</summary>
@@ -15,6 +21,8 @@ link : https://learn.deeplearning.ai/specializations/mathematics-for-machine-lea
 <details>
 <summary>🎯Q. what is singular vs non-singular system ?</summary>
 
+- linearly dependent = singular (vector does not add any new dimension to the span)
+- linearly independent = non-singular (each vector adds a new dimension to the span)
 - A `singular system` is a system of linear equations that does not have a unique solution. This happens when the equations are `linearly dependent`, meaning that one equation can be derived from another. In such cases, t`he system may have either no solutions or infinitely many solutions`.
 - A `non-singular system` is a system of linear equations that has a unique solution. This occurs when the equations are `linearly independent`, meaning that no equation can be derived from another. In such cases, the `system has exactly one solution`.
 - A `singular matrix`
@@ -147,6 +155,7 @@ the hypotenuse.
 <summary>🎯Q. what is L1 and L2 norms</summary>
 
 - L1 and L2 norms used to measure the size or length of a vector in a vector space.
+- Norm is actually a distance function that measures the distance between two points in a vector space.
 
 - ![alt text](images/image-35.png)
 - Machine Learning connection
@@ -168,7 +177,107 @@ the hypotenuse.
 - ![alt text](images/image-41.png)
 </details>
 
+<details>
+<summary>🎯Q. matrix linear transformation?</summary>
 
+- Transformation is a function that takes a vector as input and produces another vector as output.
+- why linear transformation is done ? THis is done to `change the basis of the vector space`.
+- basis 
+- ![alt text](images/image-42.png)
+- ![alt text](images/image-43.png)
+- ![alt text](images/image-44.png)
+- ![alt text](images/image-45.png)
+- ![alt text](images/image-46.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is identity metrics ?</summary>
+
+- why its important ? because when we multiply any matrix with identity matrix we get the same matrix.
+- Identity matrix is a square matrix with ones on the diagonal and zeros elsewhere.
+- ![alt text](images/image-47.png)
+- ![alt text](images/image-48.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is inverse matrics how to find it ?</summary>
+
+- inverse of a matrix A is denoted as A^-1 and it is defined as the matrix that when multiplied with A gives the identity matrix.
+- THis is important concept, because in linear regression we use this concept to find the weights of the model. Meanining we use this to solve the linear equations.
+- ![alt text](images/image-49.png)
+- ![alt text](images/image-50.png)
+- ![alt text](images/image-51.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Neural network and matrices ? VVIP</summary>
+
+- Below image is a natural language processing as its inputs are natural language words.
+- ![alt text](images/image-52.png)
+- ![alt text](images/image-53.png)
+- ![alt text](images/image-54.png)
+- ![alt text](images/image-55.png)
+- Bias and Threshould good analogy below
+- ![alt text](images/image-56.png)
+- ![alt text](images/image-57.png)
+- ![alt text](images/image-58.png)
+- ![alt text](images/image-59.png)
+
+</details>
+
+<br>
+
+<details>
+<summary>🎯Q. what is principle component analysis</summary>
+
+- principle component analysis is a technique used to reduce the dimensionality of a dataset by transforming it into a new set of variables called principal components.
+- PCA aims to reduce the columns of a dataset while retaining as much variability (information) as possible.
+- ![alt text](images/image-60.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Singular and Non-Singular transformation</summary>
+
+- ![alt text](images/image-61.png)
+- ![alt text](images/image-62.png)
+- ![alt text](images/image-63.png)
+</details>
+
+<details>
+<summary>🎯Q. The concept of Basis</summary>
+
+- Basis of a matrix is a set of vectors that are linearly independent and span the vector space.
+- If we have basis then reach any point in the vector space using linear combination of the basis vectors.
+- ![alt text](images/image-1001.png)
+- ![alt text](images/image-64.png)
+- ![alt text](images/image-65.png)
+- ![alt text](images/image-66.png)
+- ![alt text](images/image-67.png)
+</details>
+
+<details>
+<summary>🎯Q. The concept of Span</summary>
+
+- Span of a set of vectors is the set of all possible linear combinations of those vectors.
+- ![alt text](images/image-1002.png)
+- ![alt text](images/image-68.png)
+- Below is the image of how span looks in the 3D space.
+- ![alt text](images/image-1003.png)
+</details>
+
+<details>
+<summary>🎯Q. what is Eigenbases, EigenValues and EigenVectors ? VVIP for ML</summary>
+
+- Eigenbases are the set of eigenvectors of a matrix that form a basis for the vector space.
+- ![alt text](images/image-69.png)
+- ![alt text](images/image-70.png)
+- ![alt text](images/image-71.png)
+- ![alt text](images/image-72.png)
+</details>
 
 <br>
 <br>
