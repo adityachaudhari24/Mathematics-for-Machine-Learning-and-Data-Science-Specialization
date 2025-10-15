@@ -8,6 +8,16 @@ Q. why its important to learn the core concepts of linear algebra for machine le
 - It gives the data analyst or data scientists a nice way to conceptualize and visualize the data which can seriously help recognize the patterns in the data more visually.
 - For CS concepts like computer graphics, computer vision, robotics and machine learning linear algebra provides the "language to describe the space and manipulation of the space using numbers which is very important for these fields".
 
+Key takeawats
+- whenever you see a `metrics` `consider it as a transformation of space`.( example : rotation, scaling, shearing etc)
+- `matrices` is just the `way to packaging the information needed to describe the linear transformation`.
+- `Linear transformations` are functions `that take vectors as inputs and produce other vectors as outputs.` (Here matrices are used to represent these transformations)
+- whenever you see a vector consider it as a `point in space` or `direction in space`.
+- whenever you see a system of equations consider it as a line or plane in space.
+- whenever you see a matrix consider it as a way to represent linear transformations.
+
+- multiplying a matrix with another matrix has the geometrics meaning of applying one transformation and then other transformation.
+
 <details>
 <summary>🎯Q. what is linear regression</summary>
 
