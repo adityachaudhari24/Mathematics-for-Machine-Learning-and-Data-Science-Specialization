@@ -36,3 +36,24 @@
 - understand the vector addition below 
 - ![alt text](images/image-addition.png)
 </details>
+
+
+<details>
+<summary>Dot products , they are important because this is how machines sees the relationship how?</summary>
+
+- 
+
+
+</details>
+
+
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐ Key points and my understanding ⭐⭐⭐⭐⭐⭐⭐⭐
+
+- simple vector is like an infomration plotted on a graph by its number prepresentation for better visualization on the graph.
+- scaler is a single number representation of the information.
+- vector is a collection of numbers representing the information.
+- dot product represent the similarity between two vectors. (provides the relationship between two information)
+- addition of two vectors represent the combination of two information.
+- ⭐⭐⭐⭐Example⭐⭐⭐⭐ - (VVIP very intresting example) - ![alt text](images/image-dot-and-add-movies-rating-analogy.png)
