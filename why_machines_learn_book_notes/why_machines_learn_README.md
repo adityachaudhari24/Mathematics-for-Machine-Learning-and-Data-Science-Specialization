@@ -108,10 +108,14 @@
 
 
 <details>
-<summary>Dot products , they are important because this is how machines sees the relationship how?</summary>
+<summary>what is dot products? why they are important in machine learning?</summary>
 
-- 
-
+- Dot products isnt just a dry math its at the heart of the how machines learn the relationship between different things(informations).
+- ![alt text](images/image-dot-product1.png)
+- Think of it like this: imagine you're standing under a streetlight at night, and your shadow falls onto the ground. The dot product is like measuring how long that shadow is when one vector casts its "shadow" onto another vector.
+- ![alt text](images/image-dot-product2.png)
+- ![alt text](images/image-dot-product44.png)
+- ![alt text](images/image-dot-product45.png)
 
 </details>
 
