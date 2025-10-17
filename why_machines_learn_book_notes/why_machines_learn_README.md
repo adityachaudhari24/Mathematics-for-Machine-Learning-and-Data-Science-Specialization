@@ -35,6 +35,75 @@
 - ![alt text](images/image-vector.png)
 - understand the vector addition below 
 - ![alt text](images/image-addition.png)
+
+
+</details>
+
+
+<details>
+<summary>What are matrices and tensors? Extending the scalar and vector analogy</summary>
+
+- **Scalar**: As explained earlier, a scalar is a single number. For example, the distance a man walks (5 miles) is a scalar quantity.
+
+- **Vector**: A vector adds direction to the scalar. For instance, if the man walks 5 miles northeast, this can be represented as a vector with both magnitude (5 miles) and direction (northeast).
+
+- **Extending to Matrices**:  
+    Now, imagine that instead of just one man walking, we have a group of people walking in different directions and covering different distances.  
+
+    For example:  
+    - Person A walks 5 miles northeast.  
+    - Person B walks 3 miles south.  
+    - Person C walks 7 miles west.  
+
+    To represent this group of movements, we can organize their distances and directions into a matrix. A matrix is essentially a table of numbers, where each row represents a person, and each column represents a specific aspect of their movement (e.g., distance and direction).  
+
+    ```
+    [ 5   NE ]
+    [ 3    S ]
+    [ 7    W ]
+    ```
+
+    In mathematical terms, we often break down the direction into components (e.g., x and y coordinates). For instance:  
+    ```
+    [ 5   3 ]
+    [ 3  -3 ]
+    [ 7   0 ]
+    ```
+
+    A **matrix is simply a collection of vectors organized in rows or columns**. It allows us to represent multiple pieces of information compactly.
+
+- **Now let’s see what tensors are, keeping the same analogy**:  
+    Let’s take it one step further. Imagine that instead of just tracking the distance and direction for each person, we also want to track additional information, such as:  
+    - The time it took each person to walk.  
+    - The terrain they walked on (e.g., flat, uphill, downhill).  
+
+    To represent this richer dataset, we need a structure that can hold multiple matrices. This is where tensors come in. A tensor is a generalization of scalars, vectors, and matrices to higher dimensions.  
+
+    **Example Tensor**:  
+    - For Person A:  
+        - Distance: 5 miles  
+        - Direction: Northeast  
+        - Time: 1 hour  
+        - Terrain: Flat  
+    - For Person B:  
+        - Distance: 3 miles  
+        - Direction: South  
+        - Time: 0.5 hours  
+        - Terrain: Uphill  
+    - For Person C:  
+        - Distance: 7 miles  
+        - Direction: West  
+        - Time: 2 hours  
+        - Terrain: Downhill  
+
+    This data can be represented as a 3D tensor, where each "slice" of the tensor corresponds to a specific attribute (distance, direction, time, terrain).
+
+- **Summary**:  
+    - **Scalar**: A single number (e.g., distance walked by one person).  
+    - **Vector**: A collection of numbers representing magnitude and direction (e.g., distance and direction for one person).  
+    - **Matrix**: A 2D grid of numbers representing multiple vectors (e.g., distances and directions for multiple people).  
+    - **Tensor**: A multi-dimensional array of numbers representing even more complex data (e.g., distances, directions, times, and terrains for multiple people).
+
 </details>
 
 
@@ -46,8 +115,12 @@
 
 </details>
 
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ⭐⭐⭐⭐⭐⭐⭐⭐ Key points and my understanding ⭐⭐⭐⭐⭐⭐⭐⭐
 
@@ -56,4 +129,7 @@
 - vector is a collection of numbers representing the information.
 - dot product represent the similarity between two vectors. (provides the relationship between two information)
 - addition of two vectors represent the combination of two information.
+
+<details><summary>dot product and addition of vectors real world example</summary>
 - ⭐⭐⭐⭐Example⭐⭐⭐⭐ - (VVIP very intresting example) - ![alt text](images/image-dot-and-add-movies-rating-analogy.png)
+</details>
