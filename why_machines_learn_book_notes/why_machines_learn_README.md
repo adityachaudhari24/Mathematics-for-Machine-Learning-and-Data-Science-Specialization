@@ -131,5 +131,8 @@
 - addition of two vectors represent the combination of two information.
 
 <details><summary>dot product and addition of vectors real world example</summary>
-- ⭐⭐⭐⭐Example⭐⭐⭐⭐ - (VVIP very intresting example) - ![alt text](images/image-dot-and-add-movies-rating-analogy.png)
+
+- ⭐⭐⭐⭐Example⭐⭐⭐⭐ 
+- (VVIP very intresting example) 
+- ![alt text](images/image-dot-and-add-movies-rating-analogy.png)
 </details>
