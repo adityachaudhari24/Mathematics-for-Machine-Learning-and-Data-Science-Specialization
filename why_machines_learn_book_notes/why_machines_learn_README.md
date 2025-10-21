@@ -98,6 +98,29 @@
 
     This data can be represented as a 3D tensor, where each "slice" of the tensor corresponds to a specific attribute (distance, direction, time, terrain).
 
+- **Tensor Matrix Representation**:  
+We can represent the data for each person as a matrix where each row corresponds to a person, and each column corresponds to a specific attribute (Distance, Direction, Time, Terrain).  
+
+- For simplicity, we can encode the categorical data (e.g., Direction and Terrain) into numerical values:  
+- **Direction**: Northeast = [1, 1], South = [0, -1], West = [-1, 0] (using x, y components).  
+- **Terrain**: Flat = 0, Uphill = 1, Downhill = -1.  
+
+The tensor matrix representation would look like this:  
+```
+[
+  [ 5,  1,  1,  1,  0 ],  # Person A: Distance, Direction x, Direction y, Time, Terrain
+  [ 3,  0, -1, 0.5,  1 ], # Person B: Distance, Direction x, Direction y, Time, Terrain
+  [ 7, -1,  0,  2, -1 ]   # Person C: Distance, Direction x, Direction y, Time, Terrain
+]
+```
+
+- This is a **3D tensor** where:  
+- Each row represents a person.  
+- Each column represents an attribute (Distance, Direction x, Direction y, Time, Terrain).  
+
+### Final Tensor Representation:
+
+
 - **Summary**:  
     - **Scalar**: A single number (e.g., distance walked by one person).  
     - **Vector**: A collection of numbers representing magnitude and direction (e.g., distance and direction for one person).  
