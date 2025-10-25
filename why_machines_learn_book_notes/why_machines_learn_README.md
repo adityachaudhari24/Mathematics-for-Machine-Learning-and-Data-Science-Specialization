@@ -163,3 +163,18 @@ The tensor matrix representation would look like this:
 - (VVIP very intresting example) 
 - ![alt text](images/image-dot-and-add-movies-rating-analogy.png)
 </details>
+
+<details><summary>what does normalization do to the vectors?</summary>
+
+- ![alt text](images/image-norm1.png)
+- ![alt text](images/image-norm2.png)
+- ![alt text](images/image-norm3.png)
+</details>
+
+<details><summary>what is Eigenvectors and Eigenvalues, are they different then normalization ?</summary>
+
+- ![alt text](images/image-2-norm55.png)
+- ![alt text](images/image-3-norm66.png)
+- ![alt text](images/image-4-norm77.png)
+- ![alt text](images/image-5-norm88.png)
+</details>
